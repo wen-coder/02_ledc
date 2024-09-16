@@ -179,7 +179,7 @@ Disassembly of section .text:
 878001cc:	2b00      	cmp	r3, #0
 878001ce:	d1f5      	bne.n	878001bc <main+0x94>
 878001d0:	6803      	ldr	r3, [r0, #0]
-878001d2:	f44f 71fa 	mov.w	r1, #500	; 0x1f4
+878001d2:	f44f 717a 	mov.w	r1, #1000	; 0x3e8
 878001d6:	f023 0308 	bic.w	r3, r3, #8
 878001da:	6003      	str	r3, [r0, #0]
 878001dc:	460b      	mov	r3, r1

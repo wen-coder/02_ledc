@@ -122,7 +122,7 @@ int main(void)
 		delay(500);		/* 延时大约500ms 		*/
 
 		led_on();		/* 打开LED		 	*/
-		delay(500);		/* 延时大约500ms 		*/
+		delay(1000);		/* 延时大约500ms 		*/
 	}
 
 	return 0;
