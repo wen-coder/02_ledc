@@ -24,8 +24,8 @@ Copyright © zuozhongkai Co., Ltd. 1998-2019. All rights reserved.
 /* 
  * IOMUX相关寄存器地址 
  */
-#define SW_MUX_GPIO1_IO03 	*((volatile unsigned int *)0X020E0068)
-#define SW_PAD_GPIO1_IO03 	*((volatile unsigned int *)0X020E02F4)
+#define SW_MUX_GPIO1_IO03 	*((volatile unsigned int *)0X020E0068) //io复用
+#define SW_PAD_GPIO1_IO03 	*((volatile unsigned int *)0X020E02F4) // 引脚电气配置
 
 /* 
  * GPIO1相关寄存器地址 
